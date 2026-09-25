@@ -3,8 +3,8 @@ import Main_Page from "./Main_Page";
 import Login from "./Login";
 import Password from "./Password";
 
-export const serverRoute = 'http://localhost:8080'
-// export const serverRoute = "https://tamin-kr-last-se3-production.up.railway.app";
+//export const serverRoute = 'http://localhost:8080'
+export const serverRoute = "https://tmn-kr-se5-production.up.railway.app";
 export const token = localStorage.getItem("token");
 function App() {
   return (
